@@ -1,6 +1,7 @@
 import './App.css';
 import Card from './Components/Card';
 import TopPage from './Components/TopPage';
+import Navbar from './Components/Navbar'
 import icon1 from './Images/icon1.png';
 import icon2 from './Images/icon2.png';
 import icon3 from './Images/icon3.png';
@@ -12,6 +13,7 @@ import menuTop from './Images/menu-top-xs.png';
 function App() {
   return (
     <div className="App">
+      <Navbar logo={ironhackLogo} menu={menuTop}/>
       <TopPage logo={ironhackLogo} menu={menuTop}/>
       <div className="cards">
       <Card icon = {icon1} title = "Declarative"  description = "React makes it painless to create interactive UIs." />

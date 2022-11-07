@@ -38,12 +38,19 @@
 }
 
 .TopPage {
+  display: flex;
   background-color: rgb(17, 17, 34);
   color:white;
   text-align: left;
   padding: 20px;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 300px;
+  line-height: 0.5rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+  font-size: 2rem;
 }
 
 .navBar {
@@ -51,6 +58,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(17, 17, 34);
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .Card {
@@ -66,4 +77,10 @@
 .cards {
   display: flex;
   justify-content: space-evenly;
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 3.5rem;
 }
