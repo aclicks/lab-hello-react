@@ -1,6 +1,5 @@
-import React from "react";
 import './App.css';
-import Card from "./Components/card";
+import Card from './Components/Card';
 import icon1 from './Images/icon1.png';
 import icon2 from './Images/icon2.png';
 import icon3 from './Images/icon3.png';
